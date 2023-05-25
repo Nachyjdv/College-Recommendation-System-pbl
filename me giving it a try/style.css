@@ -1,0 +1,372 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.home-page{
+    background: linear-gradient(to right,#91b8db,#fefefe);
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav-bar{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+.nav-bar ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav-bar li{
+    padding: 20px;
+    align-items: center;
+}
+.nav-bar a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.nav-bar a:hover{
+    color: #fff;
+}
+.nav-bar img{
+    padding-left: 200px;
+}
+.btn-oval {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    background-color: #fefefe;
+    border-radius: 35px;
+    border: 2px solid black;
+    position: relative;
+    outline: none;
+  }
+  .btn-oval:hover {
+    background-color: #0186ff;
+  }
+  .btn-oval {
+    margin: 10px;
+  }
+.home-content{
+    display: flex;
+}
+.home-text{
+    width: 40vw;
+    font-size:30px;
+    padding-left: 80px;
+}
+.home-text p{
+    font-size: medium;
+}
+.home-img{
+    padding-left: 170px;
+}
+  
+.sponsors{
+    /* background-color: rgb(210, 240, 252); */
+    background-color: azure;
+    height: 20vh;
+}
+
+.be-smart{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+}
+
+.smart-img{
+    padding-left: 100px;
+}
+
+.smart-txt h1{
+    font-size: 80px;
+}
+
+.footer{
+    background-color: azure;
+    height: 50vh;
+}
+
+.footer p{
+    padding-top: 40px;
+    padding-left: 20px;
+    margin: auto;
+    padding: auto;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer{
+    display: flex;
+}
+
+.footer-img{
+    /* margin-top: 40px;
+    padding-top: 40px; */
+    padding: 40px;
+    padding-left: 200px;
+}
+
+.footer-f_txt{
+    font-size: 15px;
+    color: grey;
+    font-weight: 300;
+}
+
+/* =============================================== */
+
+                    /* tablet view */
+
+
+@media(min-width: 769px) and (max-width: 1023px){
+
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    .home-page{
+        background: linear-gradient(to right,#91b8db,#fefefe);
+        background-color: aquamarine;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .nav-bar{
+        height: 15vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+    }
+    .nav-bar ul{
+        display: flex;
+        list-style-type: none;
+    }
+    .nav-bar li{
+        padding: 20px;
+        align-items: center;
+    }
+    .nav-bar a{
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+    }
+    .nav-bar a:hover{
+        color: #fff;
+    }
+    .nav-bar img{
+        padding-left: 200px;
+    }
+    .btn-oval {
+        display: inline-block;
+        width: 100px;
+        height: 40px;
+        box-sizing: border-box;
+        text-align: center;
+        color: black;
+        text-decoration: none;
+        background-color: #fefefe;
+        border-radius: 35px;
+        border: 2px solid black;
+        position: relative;
+        outline: none;
+      }
+      .btn-oval:hover {
+        background-color: #0186ff;
+      }
+      .btn-oval {
+        margin: 10px;
+      }
+    .home-content{
+        display: flex;
+    }
+    .home-text{
+        width: 40vw;
+        font-size:30px;
+        padding-left: 80px;
+    }
+    .home-text p{
+        font-size: medium;
+    }
+    .home-img{
+        padding-left: 170px;
+    }
+      
+    .sponsors{
+        /* background-color: rgb(210, 240, 252); */
+        background-color: azure;
+        height: 20vh;
+    }
+    
+    .be-smart{
+        height: 90vh;
+        width: 100vw;
+        display: flex;
+    }
+    
+    .smart-img{
+        padding-left: 100px;
+    }
+    
+    .smart-txt h1{
+        font-size: 80px;
+    }
+    
+    .footer{
+        background-color: azure;
+        height: 50vh;
+    }
+    
+    .footer p{
+        padding-top: 40px;
+        padding-left: 20px;
+        margin: auto;
+        padding: auto;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    
+    .footer{
+        display: flex;
+    }
+    
+    .footer-img{
+        /* margin-top: 40px;
+        padding-top: 40px; */
+        padding: 40px;
+        padding-left: 200px;
+    }
+
+}
+
+/* =================================== */
+
+            /* Mobile view */
+
+@media(max-width: 768px)
+{
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    .home-page{
+        background: linear-gradient(to right,#91b8db,#fefefe);
+        background-color: aquamarine;
+        height: 100%;
+        width: 100%;
+    }
+    
+    /* .nav-bar{
+        height: 15%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .nav-bar ul{
+        display: flex;
+        list-style-type: none;
+    }
+    .nav-bar li{
+        padding: 20px;
+        align-items: center;
+    }
+    .nav-bar a{
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+    }
+    .nav-bar a:hover{
+        color: #fff;
+    }
+    .nav-bar img{
+        padding-left: 200px;
+    } */
+    .btn-oval {
+        display: inline-block;
+        width: 100px;
+        height: 40px;
+        box-sizing: border-box;
+        text-align: center;
+        color: black;
+        text-decoration: none;
+        background-color: #fefefe;
+        border-radius: 35px;
+        border: 2px solid black;
+        position: relative;
+        outline: none;
+      }
+      .btn-oval:hover {
+        background-color: #0186ff;
+      }
+      .btn-oval {
+        margin: 10px;
+      }
+    .home-content{
+        /* display: flex; */
+    }
+    .home-text{
+        width: 40%;
+        font-size:30px;
+        padding-left: 80px;
+    }
+    .home-text p{
+        font-size: medium;
+    }
+    .home-img{
+        padding-left: 170px;
+    }
+      
+    .sponsors{
+        /* background-color: rgb(210, 240, 252); */
+        background-color: azure;
+        height: 20vh;
+    }
+    
+    .be-smart{
+        height: 90%;
+        width: 100%;
+        display: flex;
+    }
+    
+    .smart-img{
+        padding-left: 100px;
+    }
+    
+    .smart-txt h1{
+        font-size: 80px;
+    }
+    
+    .footer{
+        background-color: azure;
+        height: 50%;
+    }
+    
+    .footer p{
+        padding-top: 40px;
+        padding-left: 20px;
+        margin: auto;
+        padding: auto;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    
+    .footer{
+        display: flex;
+    }
+    
+    .footer-img{
+        /* margin-top: 40px;
+        padding-top: 40px; */
+        padding: 40px;
+        padding-left: 200px;
+    }
+    
+
+
+}

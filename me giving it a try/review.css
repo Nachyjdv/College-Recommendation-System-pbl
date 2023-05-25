@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right,#91b8db,#fefefe);
+}
+.nav-bar ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav-bar li{
+    padding: 20px;
+    align-items: center;
+}
+.nav-bar a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.nav-bar a:hover{
+    color: #fff;
+}
+.nav-bar img{
+    padding-left: 200px;
+}
+.btn-oval {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    background-color: #fefefe;
+    border-radius: 35px;
+    border: 2px solid black;
+    position: relative;
+    outline: none;
+  }
+  .btn-oval:hover {
+    background-color: #0186ff;
+  }
+  .btn-oval {
+    margin: 10px;
+  }
+
+#wrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(to right,#91b8db,#fefefe);
+}
+.wrapper-heading
+{
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.wrapper-heading h1
+{
+    font-size: 2.2rem;
+    font-weight: 500;
+    background-color: #202020;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.wrapper-heading span
+{
+    font-size: 2.0rem;
+    font-weight: 300;
+    padding: 10px 20px;
+}
+.wrapper-box-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.wrapper-box
+{
+    width: 500px;
+    box-shadow: 2px 2px 30px black;
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+.profile-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.username
+{
+    display: flex;
+    flex-direction: column;
+    color: rgb(19, 18, 18);
+}
+.box-top
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.comment p
+{
+    font-size: 0.9rem;
+}
+.username strong,span{
+    padding-left: 10px;
+}
